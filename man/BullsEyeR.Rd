@@ -25,11 +25,6 @@ Creation of Document Term Matrix -repeats first step, now including the custom s
 Topic Modelling- Performs preprocessing along with removal of custom stop words,Uses topic number selected using 'ldatuning' and builds unigram topic model with/without stemming. Returns,
 }
 
-\section{Keywords}{
-
-A data frame with keywords/dominant words of each document along with the topic number assigned by LDA model
-}
-
 \section{EmptyRows}{
 
 A list of zero length documents after preprocessing

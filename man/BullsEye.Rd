@@ -5,7 +5,7 @@
 \title{Topic Modelling}
 \usage{
 BullsEye(ds, spvar = 0.99, myStopWords = NULL, tno = 20, seedno = 12345,
-  stemvar = 0, stemComp = "prevalent")
+  stemvar = 0)
 }
 \arguments{
 \item{ds}{a character vector of text documents}
@@ -19,11 +19,9 @@ BullsEye(ds, spvar = 0.99, myStopWords = NULL, tno = 20, seedno = 12345,
 \item{seedno}{seed which defaults to 12345}
 
 \item{stemvar}{a variable indicating stemming to be performed or not which defaults to '0' meaning no stemming}
-
-\item{stemComp}{type of stem completion like type = c("prevalent", "first", "longest","none", "random", "shortest")}
 }
 \value{
-A dataframe with dominat words,index of empty rows  and topic terms.
+A dataframe with index of empty rows  and topic terms.
 }
 \description{
 BullsEye runs intial preprocessing, removes custom stop words and runs LDA with selected number of topics.
@@ -35,7 +33,7 @@ BullsEye runs intial preprocessing, removes custom stop words and runs LDA with 
 data.tmp<-read.csv(system.file("ext", "testdata.csv", package="BullsEyeR"))
 ds<-as.character(data.tmp$Story[1:2])
 stopwords<-c("sallin","hannah","company","number","started","unlike")
-BullsEye(ds=ds,spvar=0.99,myStopWords=stopwords,tno=20,seedno=12345,stemvar=0,stemComp="prevalent")
+BullsEye(ds=ds,spvar=0.99,myStopWords=stopwords,tno=20,seedno=12345,stemvar=0)
 }
 \seealso{
 \code{\link[ldatuning]{FindTopicsNumber}}

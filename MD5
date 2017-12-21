@@ -1,10 +1,10 @@
-848c4cac46f33831ba8631ed02ade501 *DESCRIPTION
+eeafe35d11529e1407634f2bf21c750b *DESCRIPTION
 f13fbadc94f83719cec174b57c6d31ab *NAMESPACE
-9b057647b3823c4aad403639f4fe9071 *R/BullsEyeR.R
+d1e36f1e91a0b9fe3e047aa82e1b5778 *R/BullsEyeR.R
 ff99b2a702336be8c88d59854ebf5e52 *R/testdata.R
 a1bc7819a7a9a4a088a4b680d3908754 *inst/ext/testdata.csv
-2994fc84b2a7e409f6eeca8c5d4a0e22 *man/BullsEye.Rd
-00b61361b66f4389df2959682a5f6d23 *man/BullsEyeR.Rd
+84d47d27bc00c8cfd5e917a580db9e02 *man/BullsEye.Rd
+13f5bf99764f115c10dcf308ffaea6f8 *man/BullsEyeR.Rd
 7a36eb6cd5a126038bfaeac61786ce85 *man/createDTM.Rd
 7af81f3faed95aadfda2c604905913ba *man/freqAnalysis.Rd
 8593f329df32adb774c964da778ba198 *man/testdata.Rd
